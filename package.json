@@ -1,23 +1,30 @@
 {
-    "devDependencies": {
-        "@symfony/stimulus-bridge": "^2.0.0",
-        "core-js": "^3.0.0",
-        "node-sass": "^5.0.0",
-        "regenerator-runtime": "^0.13.2",
-        "sass-loader": "^11.0.1",
-        "stimulus": "^2.0.0",
-        "webpack-notifier": "^1.6.0"
-    },
-    "license": "UNLICENSED",
-    "private": true,
-    "scripts": {},
-    "dependencies": {
-        "@material/button": "^10.0.0",
-        "css-loader": "^5.0.2",
-        "extract-loader": "^5.1.0",
-        "file-loader": "^6.2.0",
-        "material-components-web": "^10.0.0",
-        "sass": "^1.32.8",
-        "tapable": "^2.2.0"
-    }
+  "name": "weather-crisis-net",
+  "dependencies": {
+    "@babel/core": "^7.12.17",
+    "autoprefixer": "^10.2.4",
+    "css-loader": "^5.0.2",
+    "dart-sass": "^1.25.0",
+    "extract-loader": "^5.1.0",
+    "file-loader": "^6.2.0",
+    "materialize-css": "next",
+    "postcss": "^8.2.6",
+    "postcss-loader": "^5.0.0",
+    "sass": "^1.32.8",
+    "sass-loader": "^11.0.1",
+    "webpack": "^5.23.0",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "scripts": {
+    "webpack-build": "webpack build"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.2.2",
+    "babel-preset-env": "^1.7.0"
+  },
+  "presets": [
+    "env"
+  ]
 }
