@@ -1,0 +1,10 @@
+@use '@material/button/mdc-button';
+@use '@material/button';
+
+body {
+    background-color: lightgray;
+}
+
+.foo-button {
+    @include button.container-fill-color(darksalmon);
+}
